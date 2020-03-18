@@ -1,0 +1,184 @@
+@media (min-width: 576px){
+}
+@font-face{
+    font-family: 'LitosScript-regular.otf';
+    src: url(LitosScript-regular.otf);
+}
+.main{ 
+    min-height: 100vh;
+    font-family: 'LitosScript-regular.otf';
+}
+.left{
+    margin: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #00838F;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 10px 30px 10px;
+}
+.titleleft{
+    display: none;
+}
+img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+.contact{
+    width: 300px;
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.title{
+    min-height: auto;
+    width: auto;
+    color:#00838F;
+    background-color:#4c4640;
+    text-align: center;
+    font-size: 40px;
+}
+
+h4{
+    font-size: 20px;
+}
+a{
+    color: black;
+}
+.icone{
+    width: auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hobbi{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 25%;
+}
+
+.paragraphe{
+    margin: 30px 10px 100px 10px;
+    text-align: justify;
+}
+header{
+    margin: 140px 200px 90px 80px;
+}
+h1, h2{
+    display: flex;
+    justify-content: flex-start;
+}
+.text-info{
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.title2{
+    margin-left: 30px;
+}
+.deco{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+section{
+    margin-left: 80px;
+    margin-right: 70px;
+}
+li:first-child{
+    list-style: none;
+    list-style-image: url(cercle.png);
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.note{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    text-align: left;
+    margin: 30px 60px 30px 0px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 576px){
+
+    aside{
+        width: auto;
+    }
+    .titleleft{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+    .photo h2{
+        font-size: 1.5em;
+    }
+    .contact{
+        width: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 20px 45px 20px 45px;
+    }
+    h4 p:nth-child(1){
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .icone{
+        width: auto;
+        margin: 20px 85px 20px 85px;
+        padding: 10px 0px 10px 0px;
+    }
+   
+    header{
+        display: none;
+    }
+    section{
+        margin-left: 30px;
+    } 
+    /*.date{
+        display: block;
+        width: auto;
+        font-weight: bold;
+    }*/
+    p{
+        font-weight: normal;
+    }
+    .note{
+        width: 300px;
+        margin-left: 5px;
+    }
+    .note1{
+        margin-right:60px;
+    }
+}
+@media screen and (max-width: 800px){
+    .icone{
+        width: auto;
+    }
+    header{
+        width: 300px;
+    }
+}
