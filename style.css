@@ -99,14 +99,20 @@ section{
     margin-right: 70px;
 }
 dl{
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 dt{
     display: list-item;
     list-style-type: disc;
+    list-style-position: inside;
+    text-align: justify;
+}
+dt:first-child{
+    list-style-image: url('mini_circle.png');
 }
 dt dd{
+    margin-left: 5px;
     margin-top: 10px;
 }
 .note{
