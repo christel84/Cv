@@ -1,4 +1,4 @@
-@media (min-width: 576px){
+@media (min-width: 768px){
 }
 @font-face{
     font-family: 'LitosScript-regular.otf';
@@ -23,6 +23,9 @@
 .titleleft{
     display: none;
 }
+.h2{
+    font-size: 25px;
+}
 img{
     display: flex;
     align-items: center;
@@ -44,7 +47,7 @@ img{
     color:#00838F;
     background-color:#4c4640;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 h4{
@@ -92,13 +95,19 @@ h1, h2{
     align-items: center;
 }
 section{
-    margin-left: 80px;
+    margin-left: 40px;
     margin-right: 70px;
 }
-.date{
-    display: flex;
-    justify-content: space-between;
-    align-content: flex-start;
+dl{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+dt{
+    display: list-item;
+    list-style-type: disc;
+}
+dt dd{
+    margin-top: 10px;
 }
 .note{
     width: auto;
@@ -146,8 +155,13 @@ section{
         display: none;
     }
     section{
-        margin-left: 30px;
-    } 
+        margin-left: 10px;
+        margin-right: auto;
+    }
+    .title2{
+
+        margin-top: 20px;
+    }
     p{
         font-weight: normal;
     }
@@ -159,7 +173,7 @@ section{
         margin-right:60px;
     }
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 812px){
     .icone{
         width: auto;
     }
