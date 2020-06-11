@@ -99,31 +99,18 @@ section{
     margin-right: 70px;
 }
 dl{
-    margin-top: 25px;
-    margin-bottom: 50px;
-}
-dt{
-    display: list-item;
-    list-style-type: disc;
-    list-style-position: inside;
-    text-align: justify;
-}
-dt:first-child{
-    list-style-image: url('mini_circle.png');
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 dt dd{
-    margin-left: 5px;
     margin-top: 10px;
-}
-.word{
-    margin-left: 15px;
 }
 .note{
     width: auto;
     height: auto;
     display: flex;
     justify-content: space-around;
-    flex-wrap: nowrap; 
+    flex-wrap: nowrap;
     text-align: left;
     margin: 30px 60px 30px 0px;
     padding: 10px;
@@ -181,9 +168,6 @@ dt dd{
     .note1{
         margin-right:60px;
     }
-    dd{
-        margin-left: 18px;
-    }
 }
 @media screen and (max-width: 812px){
     .icone{
@@ -191,14 +175,5 @@ dt dd{
     }
     header{
         width: 300px;
-    }
-    dt:first-child{
-        list-style: none;
-    }
-    dt{
-        list-style: none;
-    }
-    .word{
-        margin-left: auto;
     }
 }
