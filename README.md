@@ -1,2 +1,0 @@
-# Cv
-projet openclassrooms
